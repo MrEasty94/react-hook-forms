@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+input,
+button {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type="number"] {
+  text-align: center;
+  padding: 1rem;
+  width: 30px;
+  border-radius: 10px;
+}
